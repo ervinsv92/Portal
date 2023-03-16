@@ -1,0 +1,40 @@
+:root{
+    --color-one:#e9e9f6;
+    --color-two:#9397b1;
+    --color-tree:#414d70;
+    --color-four:#453a25;
+    --color-five:#1f0d00;
+}
+
+body{
+    background-color: var(--color-one);
+}
+
+.title-technologies{
+    text-decoration: underline;
+}
+
+.card-background{
+    background-color: var(--color-tree) !important;
+    color:white;
+}
+
+.visit-button{
+    background-color: var(--color-four);
+    color:var(--color-one);
+    border-color: var(--color-four);
+}
+
+.visit-button:hover{
+    background-color: var(--color-one);
+    color:var(--color-four);
+    border-color: var(--color-one);
+}
+
+.card-height{
+    min-height: 100%;
+}
+
+.visit-container{
+    /* height: 50px; */
+}
